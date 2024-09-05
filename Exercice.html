@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours Réseau Ignesia - Exercices</title>
+    <link rel="icon" href="logosite.png" type="image/png"> <!-- Ajout de la balise pour le favicon -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEFA, #FFB6C1); /* Dégradé bleu et rose */
+            color: #333;
+        }
+
+        /* Style de la barre de navigation */
+        nav {
+            background-color: #000; /* Barre noire */
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            height: 80px;
+        }
+
+        nav img {
+            width: 100px; /* Agrandir le logo */
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 30px; /* Espacement entre les éléments */
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style de la section principale */
+        .container {
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 48px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Style des catégories en mode flexbox */
+        .exercise-categories {
+            display: flex;
+            flex-wrap: wrap; /* Permet d'enrouler les éléments sur plusieurs lignes si l'écran est trop petit */
+            gap: 20px; /* Espacement entre les catégories */
+        }
+
+        .exercise-category {
+            flex: 1 1 calc(25% - 20px); /* Chaque catégorie prend 50% de la largeur, moins l'espacement */
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        .exercise-category h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .exercise-category p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Styles pour les petits écrans */
+        @media (max-width: 768px) {
+            .exercise-category {
+                flex: 1 1 100%; /* Sur les petits écrans, chaque catégorie prend 100% de la largeur */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Ignesia">
+        </div>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="cours.html">Cours</a></li>
+            <li><a href="sujet de controle.html">Sujet de contrôle</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenu principal -->
+    <div class="container">
+        <h1>Exercices Pratiques</h1>
+
+        <div class="exercise-categories">
+            <!-- Catégorie 1 -->
+            <div class="exercise-category">
+                <h2>Exercices Réseaux de Base</h2>
+                <p>
+                    Testez vos connaissances sur les concepts de base des réseaux. Ces exercices couvrent les topologies, les protocoles de communication, et le modèle OSI. 
+                    Parfait pour les débutants !
+                </p>
+            </div>
+
+            <!-- Catégorie 2 -->
+            <div class="exercise-category">
+                <h2>Exercices d'Administration de Réseau</h2>
+                <p>
+                    Pratiquez la configuration des routeurs, des commutateurs, la gestion des adresses IP, et les stratégies de sécurité réseau grâce à ces exercices concrets.
+                </p>
+            </div>
+
+            <!-- Catégorie 3 -->
+            <div class="exercise-category">
+                <h2>Exercices de Sécurité Réseau</h2>
+                <p>
+                    Renforcez vos compétences en sécurité réseau avec des exercices sur les pare-feux, le cryptage, les VPN, et la détection d'intrusions. 
+                    Idéal pour les étudiants qui veulent se spécialiser en sécurité.
+                </p>
+            </div>
+
+            <!-- Catégorie 4 -->
+            <div class="exercise-category">
+                <h2>Exercices sur les Protocoles Avancés</h2>
+                <p>
+                    Ces exercices vous permettront de vous entraîner sur les protocoles avancés tels que BGP, OSPF et MPLS. 
+                    Idéal pour ceux qui souhaitent maîtriser les protocoles utilisés dans les grandes entreprises.
+                </p>
+            </div>
+            <!-- Catégorie 5 -->
+            <div class="exercise-category">
+                <h2>Exercices Réseaux de Base</h2>
+                <p>
+                    Testez vos connaissances sur les concepts de base des réseaux. Ces exercices couvrent les topologies, les protocoles de communication, et le modèle OSI. 
+                    Parfait pour les débutants !
+                </p>
+            </div>
+
+            <!-- Catégorie 6 -->
+            <div class="exercise-category">
+                <h2>Exercices d'Administration de Réseau</h2>
+                <p>
+                    Pratiquez la configuration des routeurs, des commutateurs, la gestion des adresses IP, et les stratégies de sécurité réseau grâce à ces exercices concrets.
+                </p>
+            </div>
+
+            <!-- Catégorie 7 -->
+            <div class="exercise-category">
+                <h2>Exercices de Sécurité Réseau</h2>
+                <p>
+                    Renforcez vos compétences en sécurité réseau avec des exercices sur les pare-feux, le cryptage, les VPN, et la détection d'intrusions. 
+                    Idéal pour les étudiants qui veulent se spécialiser en sécurité.
+                </p>
+            </div>
+
+            <!-- Catégorie 8 -->
+            <div class="exercise-category">
+                <h2>Exercices sur les Protocoles Avancés</h2>
+                <p>
+                    Ces exercices vous permettront de vous entraîner sur les protocoles avancés tels que BGP, OSPF et MPLS. 
+                    Idéal pour ceux qui souhaitent maîtriser les protocoles utilisés dans les grandes entreprises.
+                </p>
+            </div>
+            <!-- Catégorie 9 -->
+            <div class="exercise-category">
+                <h2>Exercices Réseaux de Base</h2>
+                <p>
+                    Testez vos connaissances sur les concepts de base des réseaux. Ces exercices couvrent les topologies, les protocoles de communication, et le modèle OSI. 
+                    Parfait pour les débutants !
+                </p>
+            </div>
+
+            <!-- Catégorie 10 -->
+            <div class="exercise-category">
+                <h2>Exercices d'Administration de Réseau</h2>
+                <p>
+                    Pratiquez la configuration des routeurs, des commutateurs, la gestion des adresses IP, et les stratégies de sécurité réseau grâce à ces exercices concrets.
+                </p>
+            </div>
+
+            <!-- Catégorie 11 -->
+            <div class="exercise-category">
+                <h2>Exercices de Sécurité Réseau</h2>
+                <p>
+                    Renforcez vos compétences en sécurité réseau avec des exercices sur les pare-feux, le cryptage, les VPN, et la détection d'intrusions. 
+                    Idéal pour les étudiants qui veulent se spécialiser en sécurité.
+                </p>
+            </div>
+
+            <!-- Catégorie 12 -->
+            <div class="exercise-category">
+                <h2>Exercices sur les Protocoles Avancés</h2>
+                <p>
+                    Ces exercices vous permettront de vous entraîner sur les protocoles avancés tels que BGP, OSPF et MPLS. 
+                    Idéal pour ceux qui souhaitent maîtriser les protocoles utilisés dans les grandes entreprises.
+                </p>
+            </div>
+            <!-- Catégorie 13 -->
+            <div class="exercise-category">
+                <h2>Exercices Réseaux de Base</h2>
+                <p>
+                    Testez vos connaissances sur les concepts de base des réseaux. Ces exercices couvrent les topologies, les protocoles de communication, et le modèle OSI. 
+                    Parfait pour les débutants !
+                </p>
+            </div>
+
+            <!-- Catégorie 14 -->
+            <div class="exercise-category">
+                <h2>Exercices d'Administration de Réseau</h2>
+                <p>
+                    Pratiquez la configuration des routeurs, des commutateurs, la gestion des adresses IP, et les stratégies de sécurité réseau grâce à ces exercices concrets.
+                </p>
+            </div>
+
+            <!-- Catégorie 15 -->
+            <div class="exercise-category">
+                <h2>Exercices de Sécurité Réseau</h2>
+                <p>
+                    Renforcez vos compétences en sécurité réseau avec des exercices sur les pare-feux, le cryptage, les VPN, et la détection d'intrusions. 
+                    Idéal pour les étudiants qui veulent se spécialiser en sécurité.
+                </p>
+            </div>
+
+            <!-- Catégorie 16 -->
+            <div class="exercise-category">
+                <h2>Exercices sur les Protocoles Avancés</h2>
+                <p>
+                    Ces exercices vous permettront de vous entraîner sur les protocoles avancés tels que BGP, OSPF et MPLS. 
+                    Idéal pour ceux qui souhaitent maîtriser les protocoles utilisés dans les grandes entreprises.
+                </p>
+            </div>
+            <!-- Catégorie 17 -->
+            <div class="exercise-category">
+                <h2>Exercices Réseaux de Base</h2>
+                <p>
+                    Testez vos connaissances sur les concepts de base des réseaux. Ces exercices couvrent les topologies, les protocoles de communication, et le modèle OSI. 
+                    Parfait pour les débutants !
+                </p>
+            </div>
+
+            <!-- Catégorie 18 -->
+            <div class="exercise-category">
+                <h2>Exercices d'Administration de Réseau</h2>
+                <p>
+                    Pratiquez la configuration des routeurs, des commutateurs, la gestion des adresses IP, et les stratégies de sécurité réseau grâce à ces exercices concrets.
+                </p>
+            </div>
+
+            <!-- Catégorie 19 -->
+            <div class="exercise-category">
+                <h2>Exercices de Sécurité Réseau</h2>
+                <p>
+                    Renforcez vos compétences en sécurité réseau avec des exercices sur les pare-feux, le cryptage, les VPN, et la détection d'intrusions. 
+                    Idéal pour les étudiants qui veulent se spécialiser en sécurité.
+                </p>
+            </div>
+
+            <!-- Catégorie 20 -->
+            <div class="exercise-category">
+                <h2>Exercices sur les Protocoles Avancés</h2>
+                <p>
+                    Ces exercices vous permettront de vous entraîner sur les protocoles avancés tels que BGP, OSPF et MPLS. 
+                    Idéal pour ceux qui souhaitent maîtriser les protocoles utilisés dans les grandes entreprises.
+                </p>
+            <div>
+        </div>
+    </div>
+</body>
+</html>

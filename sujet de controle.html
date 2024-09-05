@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours Réseau Ignesia - Sujets de Contrôle</title>
+    <link rel="icon" href="logosite.png" type="image/png"> <!-- Ajout de la balise pour le favicon -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEFA, #FFB6C1); /* Dégradé bleu et rose */
+            color: #333;
+        }
+
+        /* Style de la barre de navigation */
+        nav {
+            background-color: #000; /* Barre noire */
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            height: 80px;
+        }
+
+        nav img {
+            width: 100px; /* Agrandir le logo */
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 30px; /* Espacement entre les éléments */
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style de la section principale */
+        .container {
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 48px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Style des catégories en mode flexbox */
+        .control-categories {
+            display: flex;
+            flex-wrap: wrap; /* Permet d'enrouler les éléments sur plusieurs lignes si l'écran est trop petit */
+            gap: 20px; /* Espacement entre les catégories */
+        }
+
+        .control-category {
+            flex: 1 1 calc(25% - 20px); /* Chaque catégorie prend 50% de la largeur, moins l'espacement */
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        .control-category h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .control-category p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Styles pour les petits écrans */
+        @media (max-width: 768px) {
+            .control-category {
+                flex: 1 1 100%; /* Sur les petits écrans, chaque catégorie prend 100% de la largeur */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Ignesia">
+        </div>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="Cours.html">Cours</a></li>
+            <li><a href="exercices.html">Exercices</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenu principal -->
+    <div class="container">
+        <h1>Sujets de Contrôle</h1>
+
+        <div class="control-categories">
+            <!-- Catégorie 1 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Réseaux de Base</h2>
+                <p>
+                    Ce sujet couvre les principes fondamentaux des réseaux, y compris les topologies, les protocoles de communication et les couches du modèle OSI. 
+                    Parfait pour évaluer votre compréhension des concepts de base des réseaux.
+                </p>
+            </div>
+
+            <!-- Catégorie 2 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Administration Réseau</h2>
+                <p>
+                    Testez vos compétences sur la configuration et l'administration des réseaux. Ce sujet inclut des questions sur la gestion des adresses IP, la configuration des équipements réseau, et les techniques de dépannage.
+                </p>
+            </div>
+
+            <!-- Catégorie 3 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Sécurité Réseau</h2>
+                <p>
+                    Évaluez vos connaissances en matière de sécurité réseau avec ce sujet portant sur les pare-feux, la cryptographie, les VPN, et la détection des intrusions.
+                </p>
+            </div>
+
+            <!-- Catégorie 4 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Protocoles Avancés</h2>
+                <p>
+                    Ce sujet de contrôle couvre les protocoles réseau avancés tels que BGP, OSPF, et MPLS. Idéal pour tester vos compétences en protocoles utilisés dans les réseaux complexes.
+                </p>
+            </div>
+
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Réseaux de Base</h2>
+                <p>
+                    Ce sujet couvre les principes fondamentaux des réseaux, y compris les topologies, les protocoles de communication et les couches du modèle OSI. 
+                    Parfait pour évaluer votre compréhension des concepts de base des réseaux.
+                </p>
+            </div>
+
+            <!-- Catégorie 2 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Administration Réseau</h2>
+                <p>
+                    Testez vos compétences sur la configuration et l'administration des réseaux. Ce sujet inclut des questions sur la gestion des adresses IP, la configuration des équipements réseau, et les techniques de dépannage.
+                </p>
+            </div>
+
+            <!-- Catégorie 3 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Sécurité Réseau</h2>
+                <p>
+                    Évaluez vos connaissances en matière de sécurité réseau avec ce sujet portant sur les pare-feux, la cryptographie, les VPN, et la détection des intrusions.
+                </p>
+            </div>
+
+            <!-- Catégorie 4 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Protocoles Avancés</h2>
+                <p>
+                    Ce sujet de contrôle couvre les protocoles réseau avancés tels que BGP, OSPF, et MPLS. Idéal pour tester vos compétences en protocoles utilisés dans les réseaux complexes.
+                </p>
+            </div>
+            <div class="control-category">
+
+                <h2>Sujet de Contrôle : Réseaux de Base</h2>
+                <p>
+                    Ce sujet couvre les principes fondamentaux des réseaux, y compris les topologies, les protocoles de communication et les couches du modèle OSI. 
+                    Parfait pour évaluer votre compréhension des concepts de base des réseaux.
+                </p>
+            </div>
+
+            <!-- Catégorie 2 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Administration Réseau</h2>
+                <p>
+                    Testez vos compétences sur la configuration et l'administration des réseaux. Ce sujet inclut des questions sur la gestion des adresses IP, la configuration des équipements réseau, et les techniques de dépannage.
+                </p>
+            </div>
+
+            <!-- Catégorie 3 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Sécurité Réseau</h2>
+                <p>
+                    Évaluez vos connaissances en matière de sécurité réseau avec ce sujet portant sur les pare-feux, la cryptographie, les VPN, et la détection des intrusions.
+                </p>
+            </div>
+
+            <!-- Catégorie 4 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Protocoles Avancés</h2>
+                <p>
+                    Ce sujet de contrôle couvre les protocoles réseau avancés tels que BGP, OSPF, et MPLS. Idéal pour tester vos compétences en protocoles utilisés dans les réseaux complexes.
+                </p>
+            </div>
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Réseaux de Base</h2>
+                <p>
+                    Ce sujet couvre les principes fondamentaux des réseaux, y compris les topologies, les protocoles de communication et les couches du modèle OSI. 
+                    Parfait pour évaluer votre compréhension des concepts de base des réseaux.
+                </p>
+            </div>
+
+            <!-- Catégorie 2 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Administration Réseau</h2>
+                <p>
+                    Testez vos compétences sur la configuration et l'administration des réseaux. Ce sujet inclut des questions sur la gestion des adresses IP, la configuration des équipements réseau, et les techniques de dépannage.
+                </p>
+            </div>
+
+            <!-- Catégorie 3 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Sécurité Réseau</h2>
+                <p>
+                    Évaluez vos connaissances en matière de sécurité réseau avec ce sujet portant sur les pare-feux, la cryptographie, les VPN, et la détection des intrusions.
+                </p>
+            </div>
+
+            <!-- Catégorie 4 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Protocoles Avancés</h2>
+                <p>
+                    Ce sujet de contrôle couvre les protocoles réseau avancés tels que BGP, OSPF, et MPLS. Idéal pour tester vos compétences en protocoles utilisés dans les réseaux complexes.
+                </p>
+            </div>
+            <div class="control-category">
+
+                <h2>Sujet de Contrôle : Réseaux de Base</h2>
+                <p>
+                    Ce sujet couvre les principes fondamentaux des réseaux, y compris les topologies, les protocoles de communication et les couches du modèle OSI. 
+                    Parfait pour évaluer votre compréhension des concepts de base des réseaux.
+                </p>
+            </div>
+
+            <!-- Catégorie 2 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Administration Réseau</h2>
+                <p>
+                    Testez vos compétences sur la configuration et l'administration des réseaux. Ce sujet inclut des questions sur la gestion des adresses IP, la configuration des équipements réseau, et les techniques de dépannage.
+                </p>
+            </div>
+
+            <!-- Catégorie 3 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Sécurité Réseau</h2>
+                <p>
+                    Évaluez vos connaissances en matière de sécurité réseau avec ce sujet portant sur les pare-feux, la cryptographie, les VPN, et la détection des intrusions.
+                </p>
+            </div>
+
+            <!-- Catégorie 4 -->
+            <div class="control-category">
+                <h2>Sujet de Contrôle : Protocoles Avancés</h2>
+                <p>
+                    Ce sujet de contrôle couvre les protocoles réseau avancés tels que BGP, OSPF, et MPLS. Idéal pour tester vos compétences en protocoles utilisés dans les réseaux complexes.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
